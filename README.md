@@ -31,7 +31,64 @@ Rainfall is a vital driver of agriculture, water supply, and disaster management
 - **Reproducibility & Extensibility:** Modular ML models and open data access ensure adaptability for other regions or datasets
 
 ---
-![Monthly Rainfall Time](https://github.com/user-attachments/assets/eecdb66b-602c-4c9b-8948-c8a09dd5a7b9)
-![Final_results](https://github.com/user-attachments/assets/20f76dc2-5b34-41c7-a73e-a63635a78bf2)
+# Final Summary of the Project 💻
 
+## Overview
 
+The annual Mann-Kendall test showed no significant trend, but the month-wise analysis reveals important seasonal patterns masked in annual aggregation.
+
+## Methodology
+
+- **Linear Regression**: Trend slope (mm/year) for each month using 11-year data (2013-2023)  
+- **Significance Testing**: p-value < 0.05 considered significant  
+- **Coefficient of Variation (CV)**: (Std Dev / Mean) × 100 to assess inter-annual variability  
+
+## Key Findings
+
+### Significant Trends
+
+| Month   | Slope (mm/year) | P-value | Notes                          |
+|---------|-----------------|---------|-------------------------------|
+| January | +2.23           | 0.0099  | Only significant increasing trend |
+| October | +1.825          | 0.0532  | Near-significant increase, possible monsoon extension |
+
+### Monsoon Stability (June-September)
+
+| Month    | Slope (mm/year) | P-value |
+|----------|-----------------|---------|
+| June     | -1.021          | 0.573   |
+| July     | +1.974          | 0.447   |
+| August   | -1.983          | 0.505   |
+| September| -0.715          | 0.823   |
+
+Core monsoon period remains stable.
+
+### Other Months
+
+Pre-monsoon (March-May) and remaining winter/post-monsoon months show near-zero trends.
+
+## Conclusions
+
+- January shows a significant increasing trend.  
+- October shows marginally significant increase.  
+- Core monsoon (June-September) remains stable.  
+- All months show high inter-annual variability.  
+- July is the most reliable month.
+
+## Water Resource Implications
+
+- **Most Predictable**: July (for water budgeting)  
+- **Most Unpredictable**: November, October, February (risk periods)  
+- **Drought/Flood Risk**: High year-to-year variation across all months  
+- **Agricultural Planning**: Consider variability in winter and post-monsoon periods  
+- **Monsoon Reliability**: Core monsoon (July-August) is relatively consistent  
+
+## Limitations
+
+- Results localized to Delhi NCR; may not generalize.  
+- Satellite data may have inherent uncertainties.  
+- Urban effects (heat island, land-use changes) may impact local rainfall patterns.  
+
+---
+
+**Author:** Ansh Gupta & Prakhar Prajapati<br>
