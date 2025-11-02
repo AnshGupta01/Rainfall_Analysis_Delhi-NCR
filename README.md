@@ -10,7 +10,8 @@ Rainfall is a vital driver of agriculture, water supply, and disaster management
 
 ## What Have I Used?
 
-- **Data Source:** NASA GPM IMERG Monthly Satellite Data `NASA/GPM_L3/IMERG_MONTHLY_V07` (in mm/month) 
+- **Data Source:** NASA GPM IMERG Monthly Satellite Data `NASA/GPM_L3/IMERG_MONTHLY_V07`
+  - Raster Data: The data is provided as a grid of values covering the globe, essentially a raster image with geographic metadata. The standard resolution is   a fine 0.1° x 0.1° latitude-longitude grid.
 - **Tools & Libraries:**  
   - Google Earth Engine (GEE) for cloud-based data access  
   - Python, Pandas, NumPy, Matplotlib for data handling and visualization  
@@ -22,7 +23,7 @@ Rainfall is a vital driver of agriculture, water supply, and disaster management
   - Feature engineering for seasonality and lag effects  
   - Multi-model forecasting (RF, XGBoost, LSTM) for robust prediction  
 
-## Why Is This a Good ML Project?
+## Why Is This a Good Spatial ML Project?
 
 - **Real-World Relevance:** Tackles climate change impact and water management challenges  
 - **Innovative Use of Satellite Data:** Transforms satellite raster data into actionable insights  
@@ -69,13 +70,13 @@ Rainfall is a vital driver of agriculture, water supply, and disaster management
 ---
 
 ## Key Findings
-
-**Monsoon Reliability:** Core monsoon (June-September) shows strong stability — critical for agricultural planning  
-**January Intensification:** Significant rainfall increase over 20 years — may indicate climate pattern shifts  
-**July Predictability:** Lowest inter-annual variability makes July ideal for water resource budgeting  
-**Winter Risk:** December-February shows high uncertainty — requires contingency planning  
-**ML Forecasting:** LSTM model achieves 86% variance explanation on test data  
-
+| Observation Type       | Key Insight                                                                 | Implication / Note                                      |
+|-------------------------|------------------------------------------------------------------------------|----------------------------------------------------------|
+| **Monsoon Reliability** | Core monsoon (June–September) shows strong stability                         | Critical for agricultural planning                      |
+| **January Intensification** | Significant rainfall increase over 20 years                                | May indicate climate pattern shifts                     |
+| **July Predictability** | Lowest inter-annual variability                                              | Ideal for water resource budgeting                      |
+| **Winter Risk**         | December–February shows high uncertainty                                     | Requires contingency planning                           |
+| **ML Forecasting**      | LSTM model achieves 86% variance explanation on test data                    | Demonstrates strong predictive capability                |
 ---
 
 ## Water Resource Implications
