@@ -114,7 +114,8 @@ results/
 ├── future_rainfall_forecast.csv       # Forecast
 └── annual_rainfall.csv                # Annual aggregates
 ```
-
+---
+![image](https://github.com/user-attachments/assets/9fed81a3-0fb1-4151-9709-2125689559df)
 ---
 
 **Authors:** Ansh Gupta & Prakhar Prajapati  
