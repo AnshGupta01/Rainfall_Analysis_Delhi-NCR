@@ -1,0 +1,13 @@
+Month,LSTM_Forecast (mm),XGBoost_Forecast (mm),RF_Forecast (mm),Ensemble_Forecast (mm),Forecast_Category
+2024-01,4.09,143.99,197.69,115.26,High Rainfall
+2024-02,32.91,197.14,192.52,140.86,High Rainfall
+2024-03,131.93,153.99,209.65,165.19,High Rainfall
+2024-04,101.81,146.67,201.96,150.15,High Rainfall
+2024-05,132.09,146.67,201.96,160.24,High Rainfall
+2024-06,143.9,146.67,201.96,164.18,High Rainfall
+2024-07,151.19,146.67,201.96,166.61,High Rainfall
+2024-08,115.24,146.67,201.96,154.63,High Rainfall
+2024-09,82.15,146.67,201.96,143.6,High Rainfall
+2024-10,44.6,146.67,201.96,131.08,High Rainfall
+2024-11,26.94,146.67,201.96,125.19,High Rainfall
+2024-12,16.43,86.16,143.52,82.04,Moderate Rainfall
